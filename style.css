@@ -1,20 +1,6 @@
 /*forside*/
 body { margin:0; }
 
-#splash1 img{
-    position: absolute;
-            height: 100%;
-            width: 100%;
-}
-
-
-.logo img{
-    position: absolute;
-    height: 20vw;
-    top: 43%;
-    left: 16%;
-
-}
 
 
 .tilmenu {
@@ -26,10 +12,10 @@ body { margin:0; }
 
 .tilmenu a{
     text-decoration: none;
-    font-family: arial;
-    font-size: 2rem;
+    font-family: 'Italiana', serif;
+    font-size: 4rem;
     font-weight: bolder;
-    color: rgb(132, 94, 94);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -46,10 +32,17 @@ h2 {
 
 }
 
+h3 {
+    font-family: 'Italiana', serif;
+
+}
+
 
 
 #splash2 img{
     width: 100vw;
+    position: static;
+
 }
 
 
@@ -83,6 +76,10 @@ button {
             text-align: center;
         }
 
+#liste h3{
+    margin: 0vw 0vw 20vw;
+
+}
 
         #liste img {
             border-radius: 50vw;
@@ -91,15 +88,55 @@ button {
 
         }
 
+@media only screen and (max-width: 2000px){
 
-.ret {
-            font-family: monospace;
-            color: white;
+    #liste {
+        grid-template-columns: 1fr 1fr 1fr;
+            display: grid;
+    }
+
+    #liste img {
+            border-radius: 50vw;
+            height: 20vw;
             width: 20vw;
-            margin: 3vw;
-            padding: 2vw;
-            box-shadow: 0.3vw 0.3vw 1vw black;
+
         }
+
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    #liste {
+        grid-template-columns: 1fr 1fr;
+            display: grid;
+    }
+
+    #liste img {
+            border-radius: 50vw;
+            height: 35vw;
+            width: 35vw;
+
+        }
+}
+
+@media only screen and (max-width: 480px){
+
+    #liste {
+        grid-template-columns: 1fr;
+            display: grid;
+    }
+
+    #liste img {
+            border-radius: 50vw;
+            height: 35vw;
+            width: 35vw;
+
+        }
+}
+
+
+
 
 
         #popup {
@@ -124,19 +161,21 @@ button {
 
         #luk button
 {
-
-            font-size: 0.6em;
+            position: relative;
+            color: white;
+            font-size: 4em;
+            top: 25vw;
         }
 
         #indhold {
             text-align: center;
             box-sizing: border-box;
             background-color: #dddddd;
-            height: 70vh;
+            height: 55vh;
             width: 70vw;
             margin: auto;
             position: relative;
-            top: 35vw;
+            top: 20vw;
         }
 
 #indhold img{

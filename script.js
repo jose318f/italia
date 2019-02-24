@@ -23,7 +23,7 @@ let template= `
 <article class="retter">
 <img src = ${ret.billede}>
 <h2>${ret.navn} </h2>
-<p>Pris: ${ret.pris}</p>
+<h3>${ret.pris},-</h3>
 </article>`;
 
 
@@ -37,7 +37,7 @@ let template= `
                             <article class="retter">
 <img src = ${ret.billede}>
 <h2>${ret.navn} </h2>
-<p>Pris: ${ret.pris}</p>
+<h3>${ret.pris},-</h3>
 <p>${ret.tekst}</p>
 </article>`;
 
