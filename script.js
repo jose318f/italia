@@ -34,7 +34,7 @@ let template= `
 
                             document.querySelector("#indhold").innerHTML= `
 
-                            <article class="retter">
+<article class="retter">
 <img src = ${ret.billede}>
 <h2>${ret.navn} </h2>
 <h3>${ret.pris},-</h3>

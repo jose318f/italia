@@ -1,5 +1,26 @@
-/*forside*/
-body { margin:0; }
+a {
+    text-decoration: none;
+    font-family: broadway;
+    color: rgb(113, 104, 104);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 6vw;
+}
+
+
+
+/*splash side*/
+
+
+body { margin:0;
+text-align: center;}
+
+
+#splash1 img{
+    position: fixed;
+    height: 100vw;
+
+}
 
 
 
@@ -15,9 +36,84 @@ body { margin:0; }
     font-family: 'Italiana', serif;
     font-size: 4rem;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: black;
 
 }
+
+.tilmenu a:hover{
+    color:brown;
+}
+
+/*forside*/
+
+.about{
+    background-color: rgb(227, 227, 218);
+    margin: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.aboutimage img{
+    height: 30vw;
+    width: auto;
+
+}
+
+.aboutimage {
+    display: flex;
+    flex-basis: 200px;
+    margin: 2vw;
+
+}
+
+.abouttext {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 5vw;
+
+}
+
+.aboutbox {
+    margin-top: 5vw;
+    text-align: center;
+}
+
+/*contact*/
+
+.contact{
+    text-align: center;
+    margin: 2vw;
+}
+
+
+.contactwrap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 5vw;
+}
+
+.contacttext {
+    margin: auto;
+
+}
+
+.contactpic {
+    margin: auto;
+}
+
+
+
+.contactpic img {
+    height: 100%;
+    width: auto;
+
+}
+
+
 
 /*menu side*/
 p {
@@ -25,6 +121,7 @@ p {
 }
 h1 {
     font-family: 'Italiana', serif;
+    text-align: center;
 
 }
 h2 {
@@ -102,6 +199,11 @@ button {
 
         }
 
+    #indhold img {
+    width: 80%;
+  height: auto;
+}
+
 }
 
 
@@ -120,6 +222,8 @@ button {
         }
 }
 
+
+
 @media only screen and (max-width: 480px){
 
     #liste {
@@ -133,9 +237,9 @@ button {
             width: 35vw;
 
         }
+
+
 }
-
-
 
 
 
@@ -148,7 +252,7 @@ button {
         }
 
 #popup img {
-    border-radius: 50vw;
+           border-radius: 50vw;
             height: 70vw;
             width: 70vw;
 }
@@ -156,29 +260,22 @@ button {
         #luk {
             text-align: right;
             padding-right: 1em;
-            font-size: 2vw;
-        }
-
-        #luk button
-{
-            position: relative;
             color: white;
-            font-size: 4em;
-            top: 25vw;
+            font-size: 2em;
         }
 
         #indhold {
             text-align: center;
             box-sizing: border-box;
             background-color: #dddddd;
-            height: 55vh;
-            width: 70vw;
+            height: 71vh;
+            width: 40vw;
             margin: auto;
-            position: relative;
-            top: 20vw;
+
         }
 
+
 #indhold img{
-    position: relative;
-    top: -20vw;
+    width: 80%;
+  height: auto;
 }
