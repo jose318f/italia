@@ -7,7 +7,18 @@ a {
     margin: 6vw;
 }
 
+a:hover {
+    color: brown;
+}
 
+#logo img{
+    height: 10vw;
+
+}
+
+#logo {
+    text-align: left;
+}
 
 /*splash side*/
 
@@ -17,26 +28,28 @@ text-align: center;}
 
 
 #splash1 img{
-    position: fixed;
-    height: 100vw;
+    height: 100%;
+    width: auto;
 
 }
 
+.logo img{
+    height: 3vw;
 
+}
 
 .tilmenu {
     position: absolute;
-    top: 45%;
+    top: 46%;
     left: 40%;
 
 }
 
 .tilmenu a{
     text-decoration: none;
-    font-family: 'Italiana', serif;
-    font-size: 4rem;
-    font-weight: bolder;
-    color: black;
+    font-family: broadway;
+    font-size: 2rem;
+    color: rgb(113, 104, 104);
 
 }
 
@@ -199,10 +212,6 @@ button {
 
         }
 
-    #indhold img {
-    width: 80%;
-  height: auto;
-}
 
 }
 
@@ -238,13 +247,12 @@ button {
 
         }
 
-
 }
 
 
 
         #popup {
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.85);
             height: 100vh;
             width: 100vw;
             position: fixed;
@@ -253,8 +261,8 @@ button {
 
 #popup img {
            border-radius: 50vw;
-            height: 70vw;
-            width: 70vw;
+            height: 20vw;
+            width: 20vw;
 }
 
         #luk {
@@ -269,13 +277,7 @@ button {
             box-sizing: border-box;
             background-color: #dddddd;
             height: 71vh;
-            width: 40vw;
+            width: 25vw;
             margin: auto;
 
-        }
-
-
-#indhold img{
-    width: 80%;
-  height: auto;
 }
